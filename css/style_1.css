@@ -1,0 +1,360 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ccc;
+}
+
+.nav__menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav__menu li:first-child {
+    margin-left: 0;
+}
+
+    .nav__menu li a {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        text-decoration: none;
+        color: black;
+        transition: transform 0.2s ease-in-out;
+        display: inline-block;
+    }
+
+        .nav__menu li a:hover {
+            color: #767676;
+            transform: scale(1.03);
+        }
+
+
+body {
+    background-color: #fff3e5;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+main {
+    background-color: rgb(255 255 255);
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font: 15px Arial, sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+p.history__title {
+    font: 20px Arial, sans-serif;
+    font-weight: 900;
+}
+
+p.world-cooking__title {
+    font: 20px Arial, sans-serif;
+    font-weight: 900;
+}
+
+.info__text-1 {
+    display: flex;
+    align-items: center;
+}
+
+    .info__text-1 .info__photo-1 {
+        margin-right: 2%;
+    }
+
+.info__photo-1 {
+    width: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+    .info__photo-1 img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+.text__history {
+    margin-right: 100px;
+}
+
+.info__text-2 {
+    display: flex;
+    align-items: center;
+}
+
+
+    .info__text-2 .info__photo-2 {
+        margin-left: 2%;
+    }
+
+.info__photo-2 {
+    width: 100%; 
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+    .info__photo-2 img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+footer {
+    padding: 1%;
+    margin-top: 2%;
+    background-color: #847562;
+    font: 15px Arial, sans-serif;
+    color: #ffffff;
+}
+
+p.contact__contacts {
+    font-weight: 800;
+}
+
+a.telegram__link {
+    color: #ffffff;
+    cursor: pointer; 
+    text-decoration: none; 
+}
+
+    a.telegram__link:hover {
+        color: #e3e3e3;
+        text-decoration: underline;
+        text-decoration: none;
+    }
+
+
+a.vk__link {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    a.vk__link:hover {
+        color: #e3e3e3;
+        text-decoration: underline;
+        text-decoration: none;
+    }
+
+
+.main__info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.ingredients__description {
+    line-height: 200%;
+}
+
+.main__info .ingredients__description {
+    margin-left: 2%;
+}
+
+.ingredients__photo {
+    flex-shrink: 0;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+    .ingredients__photo img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+.ingredients__description {
+    flex-grow: 1;
+    text-align: justify;
+}
+
+.main__ingredients {
+    margin-top: 3%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+.ingredients__list {
+    width: 70%;
+}
+
+p.list__title {
+    font: 20px Arial, sans-serif;
+    font-weight: 700;
+}
+
+.ingredients__points {
+    width: 35%;
+}
+.top {
+margin-top: 12%;
+}
+
+p.points__title {
+    font: 20px Arial, sans-serif;
+    font-weight: 700;
+}
+
+.main_yt-video {
+    position: relative;
+    width: 100%;
+}
+
+.yt-video__title {
+    font: 25px Arial, sans-serif;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.yt-video__video-player iframe {
+    position: absolute;
+    width: 100%;
+    height: 300px; 
+    border: none;
+    border-radius: 15px;
+}
+
+p.recipe__title {
+    font: 20px Arial, sans-serif;
+    font-weight: 800;
+}
+
+
+.main__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background: #fff3e5;
+}
+
+.item {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.container__email {
+    background: #ffffff;
+    grid-column: span 1;
+    grid-row: span 1;
+    padding: 3%;
+    box-shadow: 0px 1px 2px 2px #dfd5c8;
+}
+
+    .container__email:hover {
+        background-color: rgb(193, 185, 155,0.8);
+        transition: background-color 0.7s ease;
+    }
+
+.container__vk {
+    background: #ffffff;
+    grid-column: span 1;
+    grid-row: span 1;
+    padding: 3%;
+    box-shadow: 0px 1px 2px 2px #dfd5c8;
+}
+
+    .container__vk:hover {
+        background-color: rgb(193, 185, 155,0.8);
+        transition: background-color 0.7s ease;
+    }
+
+.container__tg {
+    background: #ffffff;
+    grid-column: span 1;
+    grid-row: span 1;
+    padding: 3%;
+    box-shadow: 0px 1px 2px 2px #dfd5c8;
+}
+
+    .container__tg:hover {
+        background-color: rgb(193, 185, 155,0.8);
+        transition: background-color 0.7s ease;
+    }
+
+.container__phone {
+    background: #ffffff;
+    grid-column: span 1;
+    grid-row: span 1;
+    padding: 3%;
+    box-shadow: 0px 1px 2px 2px #dfd5c8;
+}
+
+.container__phone:hover {
+    background-color: rgb(193, 185, 155,0.8);
+    transition: background-color 0.7s ease;
+} 
+
+.tg__title {
+    text-align: center;
+    font: 20px Arial, sans-serif;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+
+.vk__title {
+    text-align: center;
+    font: 20px Arial, sans-serif;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+
+.email__title {
+    text-align: center;
+    font: 20px Arial, sans-serif;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+
+.phone__title {
+    text-align: center;
+    font: 20px Arial, sans-serif;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+
+.tg__info {
+    text-align: justify;
+    font: 18px Arial, sans-serif;
+}
+
+.vk__info {
+    text-align: justify;
+    font: 18px Arial, sans-serif;
+}
+
+.email__info {
+    text-align: justify;
+    font: 18px Arial, sans-serif;
+}
+
+.phone__info {
+    text-align: justify;
+    font: 18px Arial, sans-serif;
+}
